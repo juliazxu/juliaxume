@@ -1,0 +1,7 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /tmp/julia
+AuthGroupFile /dev/null
+require valid-user
+
+AllowOverride AuthConfig
