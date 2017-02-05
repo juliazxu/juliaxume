@@ -661,6 +661,14 @@ ol, ul {
   margin-left: 1em;
 }
 
+.tempoblue {
+  color: #205578;
+}
+
+.tempored {
+  color: #D6463E;
+}
+
 .matterblue {
   color: #00BCD4;
 }
@@ -883,6 +891,14 @@ object {
   -webkit-background-size: cover !important;
 }
 
+.tempoback {
+  background: url("../../img/tempoiq/tempoback.png") no-repeat 50% 50% fixed;
+  background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+}
+
 .matterback {
   background: url("../../img/mattermark/design_studio-min.png") no-repeat 50% 50% fixed;
   background-size: cover !important;
@@ -914,6 +930,96 @@ object {
 
 .process {
   max-width: 65%;
+}
+
+.tempobtnmainred {
+  font-size: 0.8em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #D6463E;
+  color: #D6463E;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.tempobtnmainred:hover,
+.tempobtnmainred:focus {
+  background: #D6463E;
+  border-color: #D6463E;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tempobtnmainred:active {
+  background: #ba2f27;
+  border-color: #ba2f27;
+}
+
+.tempobtnred {
+  font-size: 1.3em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #D6463E;
+  color: #D6463E;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.tempobtnred:hover,
+.tempobtnred:focus {
+  background: #D6463E;
+  border-color: #D6463E;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tempobtnred:active {
+  background: #ba2f27;
+  border-color: #ba2f27;
+}
+
+.tempobtnblue {
+  font-size: 1.3em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #205578;
+  color: #205578;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.tempobtnblue:hover,
+.tempobtnblue:focus {
+  background: #205578;
+  border-color: #205578;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tempobtnblue:active {
+  background: #153850;
+  border-color: #153850;
 }
 
 .matterbtnblue {

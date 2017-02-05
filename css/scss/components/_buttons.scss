@@ -1,6 +1,95 @@
 //**
 // Buttons
 //**
+.tempobtnmainred{
+  font-size: 0.8em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $tempored;
+  color: $tempored;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $tempored;
+    border-color: $tempored;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($tempored, 10);
+    border-color: darken($tempored, 10);
+  }
+}
+
+.tempobtnred{
+  font-size: 1.3em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $tempored;
+  color: $tempored;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $tempored;
+    border-color: $tempored;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($tempored, 10);
+    border-color: darken($tempored, 10);
+  }
+}
+
+.tempobtnblue{
+  font-size: 1.3em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $tempoblue;
+  color: $tempoblue;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $tempoblue;
+    border-color: $tempoblue;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($tempoblue, 10);
+    border-color: darken($tempoblue, 10);
+  }
+}
 
 .matterbtnblue{
   font-size: 1.3em;
