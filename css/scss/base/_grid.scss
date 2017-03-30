@@ -2,12 +2,35 @@
 // 12 Column Responsive Grid
 //**
 
+
+// .flex-center{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.paddingright{
+  padding-right: 4em;
+}
+
+.marginlittleleft {
+  margin-left: 10%;
+}
+
+.paddingtinyleft{
+  padding-left: 3%;
+}
+
 .whitespace{
   padding-top: 9em !important;
 }
 
 .littlespace{
   padding-top: 2em;
+}
+
+.tinytopspace{
+  padding-top: 0.5em;
 }
 
 .container {

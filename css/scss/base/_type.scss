@@ -27,8 +27,9 @@ ol, ul{
   padding-bottom: 0px;
 }
 
-.bold{
-  font-family: "Proxima Nova Semibold";
+b{
+  font-family: 'Proxima Nova Bold';
+  font-weight: bold;
 }
 
 .wide{
@@ -41,6 +42,16 @@ ol, ul{
   vertical-align: middle;
   margin-left: 1em;
 }
+
+//WRAP
+.wrapgreen{
+  color: $wrapgreen;
+}
+
+.wraporange{
+  color: $wraporange;
+}
+
 
 //TEMPOIQ
 
@@ -123,14 +134,19 @@ h1 {
 }
 
 .numbers {
-  font-size: 4em;
-  letter-spacing: auto;
+  font-size: 6.328125em;
+  line-height: 1;
   font-style: normal;
   font-weight: 400;
-  margin: 0px;
-  line-height: 1em;
-  padding-bottom: 0px;
-  padding-top: .2em;
+}
+
+.numbers-small {
+  font-size: 2.8125em;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -139,8 +155,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   margin: 0 0 0px;
-  line-height: 1 !important;
-  margin-bottom: .5em;
 }
 
 h3 {

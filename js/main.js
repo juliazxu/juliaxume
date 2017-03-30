@@ -1,14 +1,25 @@
 // Note: See http://blog.garstasio.com/you-dont-need-jquery/ and http://youmightnotneedjquery.com/ for JS commands that don't require jQuery
-$(document).ready(function(){
-});
 
 
-$("#example-one").on("click", function() {
-  var el = $(this);
-  el.text() == el.data("text-swap") 
-    ? el.text(el.data("text-original")) 
-    : el.text(el.data("text-swap"));
-});
+
+// $(document).ready( function() {
+// 	$("span").click( function() {
+// 		$(":nth-child(1)", this).css('display', 'block');
+// 		$(":nth-child(2)", this).css('display', 'block');   
+// 	});
+// 	$('.modal').click( function() {
+// 		$(this).fadeOut("fast");
+// 		$(this).css('display', 'none'); 
+// 	});
+// });
+
+
+// $("#example-one").on("click", function() {
+//   var el = $(this);
+//   el.text() == el.data("text-swap") 
+//     ? el.text(el.data("text-original")) 
+//     : el.text(el.data("text-swap"));
+// });
 
 $(document).ready(function() {
 	// navigation click actions	

@@ -1,6 +1,96 @@
 //**
 // Buttons
 //**
+.wrapbtngreen{
+  font-size: 1.2em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $wrapgreen;
+  color: $wrapgreen;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $wrapgreen;
+    border-color: $wrapgreen;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($wrapgreen, 10);
+    border-color: darken($wrapgreen, 10);
+  }
+}
+
+.wrapbtnorangenext{
+  font-size: 1.2em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $wraporange;
+  color: $wraporange;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $wraporange;
+    border-color: $wraporange;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($wraporange, 10);
+    border-color: darken($wraporange, 10);
+  }
+}
+
+.wrapbtnorange{
+  font-size: 0.8em;
+  padding: 1em 2em !important;
+  letter-spacing: .2em;
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $wraporange;
+  color: $wraporange;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $wraporange;
+    border-color: $wraporange;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($wraporange, 10);
+    border-color: darken($wraporange, 10);
+  }
+}
+
 .tempobtnmainred{
   font-size: 0.8em;
   padding: 1em 2em !important;

@@ -2,6 +2,53 @@
 // Other Useful Reusable Styles
 //**
 
+//IMG HOVER
+
+img.hover-lightbox {
+  transition: 0.3s;
+}
+
+.hover-lightbox:hover {
+  -webkit-animation: heartbeat 3s ease-in-out 1s infinite both;
+  -moz-animation: heartbeat 3s ease-in-out 1s infinite both;
+  animation: heartbeat 3s ease-in-out 1s infinite both;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+//IMG MODAL
+
+.modal-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  padding: 7.5%;
+}
+
+//MODAL
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 5%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(105,105,105,0.8);
+}
+
+.modal:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
+
+// MORE STUFF
+
 * {
   box-sizing: border-box !important;
 }
