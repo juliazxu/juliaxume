@@ -86,3 +86,9 @@ object {
 .process{
 	max-width: 65%;
 }
+
+.no-max{
+	padding-top: 4em;
+	min-width: 600px;
+	max-width: none !important;
+}

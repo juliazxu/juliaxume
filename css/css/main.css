@@ -967,6 +967,12 @@ object {
   max-width: 65%;
 }
 
+.no-max {
+  padding-top: 4em;
+  min-width: 600px;
+  max-width: none !important;
+}
+
 .wrapbtngreen {
   font-size: 1.2em;
   padding: 1em 2em !important;
@@ -3748,7 +3754,6 @@ a .icon-flip-vertical:before {
 }
 
 .rw-wrapper {
-  width: 80%;
   position: relative;
   margin: 110px auto 0 auto;
   font-family: 'Futura';
